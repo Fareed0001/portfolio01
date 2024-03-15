@@ -1377,10 +1377,6 @@ textarea.form-input::-webkit-resizer { display: none; }
 
   .contacts-list { gap: 20px; }
 
-  .icon-box {
-    margin: 0;
-  }
-
   .contact-info {
     max-width: calc(100% - 64px);
     width: calc(100% - 64px);
