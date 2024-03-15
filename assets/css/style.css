@@ -424,8 +424,8 @@ main {
   gap: 16px;
 }
 
-.icon-box .contact-item {
-  margin: auto 5% auto auto;
+.icon-box {
+  margin-right: 1px;
 }
 
 .contact-info {
@@ -853,6 +853,7 @@ main {
   color: var(--light-gray);
   font-size: var(--fs-7);
   font-weight: var(--fw-300);
+  margin-left: 10px;
 }
 
 .skill-progress-bg {
