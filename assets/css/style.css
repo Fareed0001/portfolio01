@@ -424,7 +424,7 @@ main {
   gap: 16px;
 }
 
-.icon-box {
+.icon-box .contact-item {
   margin: auto 5% auto auto;
 }
 
@@ -461,9 +461,9 @@ main {
   padding-left: 7px;
 }
 
-/* .social-list .social-item  {
-  align-items: ;
-} */
+.social-list .social-item  {
+  margin: auto;
+}
 
 .social-item .social-link {
   color: var(--light-gray-70);
@@ -1224,6 +1224,23 @@ textarea.form-input::-webkit-resizer { display: none; }
 
 
 
+/*--------------------------------------------------------------
+# Thank you page
+--------------------------------------------------------------*/
+
+.thankyou-gif {
+  margin: 10% auto 0;
+  width: 100%;
+}
+
+.thankyou-text {
+  font-size: 1.2rem;
+  font-weight: 600;
+  text-align: center;
+  color: white;
+}
+
+
 
 
 /*-----------------------------------*\
@@ -1642,6 +1659,20 @@ textarea.form-input::-webkit-resizer { display: none; }
     margin-left: auto;
   }
   
+
+  /* THANK YOU PAGE  */
+
+  .thankyou-gif {
+    margin: auto 25%;
+    width: 50%;
+  }
+
+  .thankyou-text {
+    font-size: 1.5rem;
+    font-weight: 600;
+    text-align: center;
+  }
+
 }
 
 
